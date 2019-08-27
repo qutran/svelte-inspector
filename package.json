@@ -14,5 +14,8 @@
   "keywords": [
     "svelte",
     "inspector"
-  ]
+  ],
+  "dependencies": {
+    "open-in-editor": "^2.2.0"
+  }
 }
