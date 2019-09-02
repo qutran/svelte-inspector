@@ -10,6 +10,9 @@ Development helper for inspecting and opening [`svelte`](https://github.com/svel
 
 `npm i --save-dev svelte-inspector`
 
+## Preparation
+Make sure that **dev** field in your svelte's compiler (loader, plugin, etc...) options have set as `true`. https://svelte.dev/docs#svelte_compile
+
 ## Usage
 
 1. Import `svelte-inspector` package and call the function at the top of your bundle configuration file (ex. rollup, webpack, parcel, etc...):
